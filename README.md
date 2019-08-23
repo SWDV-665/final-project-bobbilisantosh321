@@ -19,8 +19,8 @@ Bioscope provides information on latest and top-rated movie details such as rele
 ## Cordova Native Plugins
 The following Cordova Native Plugins are used:
 
-ionic-native SplashScreen: https://ionicframework.com/docs/native/splash-screen
-ionic-native StatusBar: https://ionicframework.com/docs/v3/native/status-bar/
+1. ionic-native SplashScreen: https://ionicframework.com/docs/native/splash-screen
+2. ionic-native StatusBar: https://ionicframework.com/docs/v3/native/status-bar/
 
 ## Future Enhancements
 1. Extend the application to TV Shows

@@ -10,16 +10,16 @@
   <ion-toolbar no-border-top  color='primary'>
     <ion-segment [(ngModel)]="movieSelection" (ionChange)='getSelection(movieSelection)'>
       <ion-segment-button value="now_playing" class='options_button'>
-        Showing Now
+        Screening Now
       </ion-segment-button>
       <ion-segment-button value="popular" class='options_button'>
         Most Popular
       </ion-segment-button>
       <ion-segment-button value="top_rated" class='options_button'>
-        Critically Acclaimed
+        Top Rated
       </ion-segment-button>
       <ion-segment-button value="upcoming" class='options_button'>
-        Coming Soon
+        Upcoming
       </ion-segment-button>
     </ion-segment>
   </ion-toolbar>

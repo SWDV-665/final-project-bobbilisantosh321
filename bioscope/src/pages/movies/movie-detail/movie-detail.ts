@@ -9,7 +9,6 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'movie-detail.html'
 })
 export class MovieDetailPage implements OnDestroy{
-
   movie:Movie;
   private movieSub: Subscription;
   constructor(

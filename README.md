@@ -5,7 +5,8 @@ Bioscope provides information on latest and top-rated movie details such as rele
 1. Shows the list of Screening Now, Most Popular, Top Rated and Upcoming Movies
 2. Search Functionality - Users can search for any movie
 3. Movie Details like genre, production company, user ratings, release date and short synopsis of the movie
-4. Users can watch trailers from App (on YouTube)
+4. Floating fab button navigating to the git source code of the application
+5. Users can watch trailers from App (on YouTube)
 
 ## Installation Steps
 1. Install ionic by using the command 'npm install -g ionic'. Follow https://ionicframework.com/docs/installation/cli
@@ -14,6 +15,12 @@ Bioscope provides information on latest and top-rated movie details such as rele
 4. Install packages: npm install
 5. Build project and launch: ionic serve
 6. Open your browser at: http://localhost:8100
+
+## Cordova Native Plugins
+The following Cordova Native Plugins are used:
+
+ionic-native SplashScreen: https://ionicframework.com/docs/native/splash-screen
+ionic-native StatusBar: https://ionicframework.com/docs/v3/native/status-bar/
 
 ## Future Enhancements
 1. Extend the application to TV Shows

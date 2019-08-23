@@ -14,3 +14,10 @@ Bioscope provides information on latest and top-rated movie details such as rele
 4. Install packages: npm install
 5. Build project and launch: ionic serve
 6. Open your browser at: http://localhost:8100
+
+## Future Enhancements
+1. Extend the application to TV Shows
+2. Sorting and Filtering options based on language, country and genre preferences
+3. Implement user authentication
+4. Save favorite Movies/TVShows
+

@@ -34,22 +34,16 @@
             <ion-icon name='calendar'></ion-icon>
             {{movie.release_date | date}}
           </button>
+          <a href="{{'https://www.youtube.com/watch?v='+movie.videos.results[0].key}}" ion-button clear small color="trailer" icon-start>
+            <ion-icon name='logo-youtube'></ion-icon>
+            Watch Trailler
+          </a>
         </ion-col>
       </ion-row>
     </div>
     <ion-card-content>
       {{movie.overview}}
     </ion-card-content>
-
-    <ion-row>
-      <ion-col text-right>
-        <a href="{{'https://www.youtube.com/watch?v='+movie.videos.results[0].key}}" ion-button clear small color="danger" icon-start>
-          <ion-icon name='share-alt'></ion-icon>
-          Watch Trailler
-        </a>
-      </ion-col>
-    </ion-row>
-
   </ion-card>
 
 </ion-content>

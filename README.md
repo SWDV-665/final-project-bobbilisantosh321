@@ -22,6 +22,20 @@ The following Cordova Native Plugins are used:
 1. ionic-native SplashScreen: https://ionicframework.com/docs/native/splash-screen
 2. ionic-native StatusBar: https://ionicframework.com/docs/v3/native/status-bar/
 
+## Screenshots (Application Walkthrough)
+
+![Bioscope application walkthrough](https://github.com/SWDV-665/final-project-bobbilisantosh321/blob/master/bioscope/screenshots/bioscope.gif)
+
+![](https://github.com/SWDV-665/final-project-bobbilisantosh321/blob/master/bioscope/screenshots/mobile.png)
+
+![](https://github.com/SWDV-665/final-project-bobbilisantosh321/blob/master/bioscope/screenshots/mobile_details.png)
+
+![](https://github.com/SWDV-665/final-project-bobbilisantosh321/blob/master/bioscope/screenshots/mobile_search.png)
+
+![](https://github.com/SWDV-665/final-project-bobbilisantosh321/blob/master/bioscope/screenshots/web.png)
+
+![](https://github.com/SWDV-665/final-project-bobbilisantosh321/blob/master/bioscope/screenshots/web_search.png)
+
 ## Future Enhancements
 1. Extend the application to TV Shows
 2. Sorting and Filtering options based on language, country and genre preferences

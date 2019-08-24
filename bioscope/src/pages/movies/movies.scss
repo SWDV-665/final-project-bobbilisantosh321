@@ -9,6 +9,18 @@ page-movies {
     text-align: center;
   }
 
+  .toolbar-title {
+    text-align: center!important;
+  }
+
+  .search-class {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    align-items: center!important;
+    display: flex;
+    justify-content: center;
+  }
+
   .card-title{
       // position: absolute;
       // top: 30%;

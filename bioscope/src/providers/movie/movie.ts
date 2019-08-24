@@ -24,6 +24,7 @@ export class MovieProvider {
     return params;
   }
 
+  // API request to get Movie List
   getList(selection: string, page = '0'){
     const params = this.getURLParams();
     params.set("page", page);
@@ -35,6 +36,7 @@ export class MovieProvider {
       .map(response =>  response.json().results as Movie[]);
   }
 
+  // API request to search Movies
   searchMovie(term: string, page = '0'): Observable<Movie[]>{
     const params = this.getURLParams();
     params.set("query", term);
@@ -46,10 +48,10 @@ export class MovieProvider {
       .map(response =>  response.json().results as Movie[]);
   }
 
+  // API request to get Movie Details
   getMovieDetails(id: string) : Observable<Movie>{
 
     const params = this.getURLParams();
-    //this will append video information to the api response
     params.set('append_to_response','videos');
     const reqOptions: RequestOptionsArgs = {
       params: params

@@ -28,15 +28,15 @@
         <ion-col>
           <button ion-button clear small color="danger" icon-start>
             <ion-icon name='star'></ion-icon>
-            {{movie.vote_average}}
+            User Ratings: {{movie.vote_average}}
           </button>
           <button ion-button clear small color="danger" icon-start>
             <ion-icon name='calendar'></ion-icon>
-            {{movie.release_date | date}}
+            Release Date: {{movie.release_date | date}}
           </button>
-          <a href="{{'https://www.youtube.com/watch?v='+movie.videos.results[0].key}}" ion-button clear small color="trailer" icon-start>
+          <a href="{{'https://www.youtube.com/watch?v='+movie.videos.results[0].key}}" ion-button clear small color="trailer" icon-start *ngIf="movie.videos.results.length">
             <ion-icon name='logo-youtube'></ion-icon>
-            Watch Trailler
+            Watch Trailer
           </a>
         </ion-col>
       </ion-row>

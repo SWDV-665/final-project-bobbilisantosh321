@@ -2,18 +2,22 @@
 
   <ion-navbar color='primary'>
     <ion-title>BioScope</ion-title>
-     <ion-buttons end class='search-bar'>
-        <ion-searchbar #search (ionChange)='searchMovie(search.value)'></ion-searchbar>
-    </ion-buttons>
+  </ion-navbar>
+  <ion-navbar color='primary' text-center>
+    <div class="search-class">
+      <ion-buttons end class='search-bar'>
+          <ion-searchbar #search (ionChange)='searchMovie(search.value)'></ion-searchbar>
+      </ion-buttons>
+    </div>
   </ion-navbar>
 
   <ion-toolbar no-border-top  color='primary'>
     <ion-segment [(ngModel)]="movieSelection" (ionChange)='getSelection(movieSelection)'>
+        <ion-segment-button value="popular" class='options_button'>
+            Trending
+          </ion-segment-button>
       <ion-segment-button value="now_playing" class='options_button'>
         Screening Now
-      </ion-segment-button>
-      <ion-segment-button value="popular" class='options_button'>
-        Most Popular
       </ion-segment-button>
       <ion-segment-button value="top_rated" class='options_button'>
         Top Rated
